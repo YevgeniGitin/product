@@ -1,0 +1,126 @@
+html {
+    margin: 0;
+    padding:0;
+}
+body{
+    margin: 0;
+    padding: 2em;
+}
+header{
+    position: relative;
+    text-align: center;
+}
+h1{
+    font-size: 4em;
+    font-style:italic;
+    font-weight: bold;
+}
+h2{
+font-size: 2.5em;
+font-style:italic;
+font-weight: bold;
+text-decoration: underline;
+}
+h3{
+    font-size: 1.5em;
+    font-style:italic;
+    font-weight: bold;
+}
+table{
+   border: 1px solid #060606;
+}
+tr,td,th{
+    border: 1px solid #060606;
+    text-align: center;
+}
+th{
+    background-color:#646464;
+}
+tr:first-child th:first-child{
+background-color:white;
+}
+tr:nth-child(odd){
+    background-color:#a7abad;
+}
+ul{
+    list-style-type: square;
+    font-size: 1em;
+}
+ul.featureslist{
+    list-style-type: none;
+    height:2.5em;
+    margin: 0 auto;  
+}
+ul.featureslist li{
+    float: left;
+    height:2.5em;
+    border:1px solid #dedede;
+    padding-top: 1em;
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+span{
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+}
+span.bold{
+    font-weight: bold;
+    text-decoration:none;
+    color:black;
+}
+section#description span:first-child{
+    color: black;
+    font-size: 1.5em;
+}
+img{
+    width: 100%;
+}
+#logobox{
+    width: 8em;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+#productimg{
+    width: 25em;
+}
+.productimg{
+    text-align: center;
+}
+figcaption{
+    width: 100%;
+    text-align: center;
+}
+.buy{
+    position: sticky;
+    width: 6em;
+    height: 1em;
+    font-weight: bold;
+    font-size: 2em;
+}
+#leftup{
+top: 0;
+left: 70;
+display: inline;
+}
+#rightup{
+top: 0;
+left:100em;
+display: inline;
+}
+#leftdown{
+top: 16.9em;
+left: 0;
+}
+#rightdown{
+top: 16.9em;
+left: 100em;
+}
+
