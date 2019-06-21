@@ -18,12 +18,10 @@ body{
 #leftup{
     top: 0;
     left: 0;
-    display: inline;
 }
 #rightup{
     top: 0;
-    left:33em;
-    display: inline;
+    left:34em;
 }
 #leftdown{
     top: 16.3em;
@@ -31,7 +29,7 @@ body{
 }
 #rightdown{
     top: 16.3em;
-    left: 33em;
+    left: 34em;
 }
 header{
     position: relative;
@@ -156,17 +154,3 @@ a{
 a:hover{
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
