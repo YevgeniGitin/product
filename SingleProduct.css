@@ -49,12 +49,15 @@ ul{
 ul.featureslist{
     list-style-type: none;
     height:2.5em;
-    margin: 0 auto;  
+    width: 535em;
+    margin: 0 auto;
+    display:flex; 
+    flex-wrap: wrap; 
 }
 ul.featureslist li{
-    float: left;
+    display: flex;
+    flex-wrap: nowrap;
     height:2.5em;
-    border:1px solid #dedede;
     padding-top: 1em;
     padding-right: 0.2em;
     padding-left: 0.2em;
@@ -99,28 +102,48 @@ figcaption{
     text-align: center;
 }
 .buy{
-    position: sticky;
+    position: fixed;
     width: 6em;
-    height: 1em;
+    height: 1.3em;
     font-weight: bold;
     font-size: 2em;
+    background-color: #006fdd;
 }
 #leftup{
 top: 0;
-left: 70;
+left: 0;
 display: inline;
 }
 #rightup{
 top: 0;
-left:100em;
+left:33em;
 display: inline;
 }
 #leftdown{
-top: 16.9em;
+top: 16.3em;
 left: 0;
 }
 #rightdown{
-top: 16.9em;
-left: 100em;
+top: 16.3em;
+left: 33em;
 }
-
+#contact{
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+}
+#table{
+    display: flex;
+    justify-content: center;
+}
+#productimgbox{
+    display: flex;
+    justify-content: center; 
+}
+#contact h2{
+    width: 5em;
+}
+#btns{
+    display: flex;
+    justify-content: space-between;
+}
